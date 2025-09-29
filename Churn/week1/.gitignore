@@ -1,0 +1,14 @@
+
+# don’t commit big data or checkpoints
+*.csv
+*.parquet
+*.zip
+.DS_Store
+.ipynb_checkpoints/
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
